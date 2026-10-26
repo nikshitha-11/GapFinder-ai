@@ -1,0 +1,7 @@
+Class 11 Physics: Mechanics (Sample Syllabus)
+
+Unit 1: Kinematics. Distance and displacement, speed and velocity, acceleration, equations of uniformly accelerated motion, free fall, projectile motion.
+Unit 2: Newton's Laws of Motion. Inertia, force and momentum, the three laws, free body diagrams, friction (static and kinetic).
+Unit 3: Work, Energy and Power. Work done by a force, kinetic energy, potential energy, conservation of mechanical energy, power.
+Unit 4: Momentum and Collisions. Linear momentum, conservation of momentum, elastic and inelastic collisions, impulse.
+Unit 5: Circular Motion. Angular displacement and velocity, centripetal acceleration and force, banking of roads.

@@ -1,0 +1,8 @@
+Mechanics Past Paper (Sample)
+
+Q1. A car accelerates from rest at 2 m/s^2 for 5 s. Find its final velocity and the distance covered. Answer: v = 10 m/s, s = 25 m.
+Q2. State Newton's third law and explain why the action and reaction forces do not cancel. Answer: they act on different bodies.
+Q3. A 2 kg ball is dropped from 5 m. Find its speed on reaching the ground (g = 10 m/s^2). Answer: 10 m/s by energy conservation.
+Q4. A 3 kg trolley moving at 4 m/s hits a stationary 1 kg trolley and they stick together. Find the common velocity. Answer: 3 m/s.
+Q5. Why does the centripetal force do no work on a body in uniform circular motion? Answer: it is perpendicular to the displacement.
+Q6. Distinguish between static and kinetic friction. Answer: static friction adjusts up to mu_s N; kinetic friction is mu_k N and is usually smaller.

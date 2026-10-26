@@ -1,0 +1,29 @@
+Chapter 1: Kinematics
+
+Distance is the total length of the path travelled and is a scalar. Displacement is the shortest straight-line change in position from start to end and is a vector, so it can be zero even when distance is not. Speed is distance divided by time; velocity is displacement divided by time. Acceleration is the rate of change of velocity, measured in metres per second squared.
+
+For uniformly accelerated motion in a straight line the three equations are v = u + at, s = ut + (1/2)at^2 and v^2 = u^2 + 2as, where u is initial velocity, v is final velocity, a is acceleration, t is time and s is displacement. In free fall near Earth's surface the acceleration is g, about 9.8 m/s^2 downward, and it is the same for all bodies when air resistance is ignored.
+
+In projectile motion the horizontal and vertical motions are independent. The horizontal velocity stays constant because no horizontal force acts, while the vertical motion has constant acceleration g. A projectile launched at 45 degrees gives the maximum range on level ground. At the highest point the vertical velocity is zero but the horizontal velocity is not.
+
+Chapter 2: Newton's Laws of Motion
+
+The first law says a body stays at rest or in uniform straight-line motion unless a net external force acts on it. This property is called inertia, and mass is its measure. The second law states that the net force equals the rate of change of momentum; for constant mass this gives F = ma. The unit of force is the newton, where 1 N is the force that gives 1 kg an acceleration of 1 m/s^2. The third law states that every action has an equal and opposite reaction, and these two forces act on different bodies, so they never cancel each other.
+
+Friction opposes relative motion between surfaces. Static friction adjusts to match the applied force up to a maximum value, f_s(max) = mu_s N. Once the object slides, kinetic friction acts with f_k = mu_k N, and mu_k is usually less than mu_s. Friction depends on the normal force N, not on the contact area. To solve problems, draw a free body diagram showing every force on a single body and then apply F = ma along each axis.
+
+Chapter 3: Work, Energy and Power
+
+Work done by a constant force is W = F d cos(theta), where theta is the angle between force and displacement. Work is a scalar measured in joules. A force perpendicular to the motion does no work, which is why the centripetal force in circular motion does no work. Kinetic energy is KE = (1/2)mv^2. The work-energy theorem says the net work done on a body equals its change in kinetic energy.
+
+Gravitational potential energy near the surface is PE = mgh. When only conservative forces such as gravity act, total mechanical energy (KE + PE) is conserved. A ball dropped from height h reaches the ground with speed v = sqrt(2gh), found by equating mgh to (1/2)mv^2. Power is the rate of doing work, P = W/t, measured in watts. It can also be written P = Fv for a force acting along the velocity.
+
+Chapter 4: Momentum and Collisions
+
+Linear momentum is p = mv, a vector. Impulse is force multiplied by the time it acts and equals the change in momentum: J = F t = delta p. Increasing the contact time lowers the average force for the same change in momentum, which is why airbags and cushions protect people.
+
+When no external net force acts on a system, its total momentum is conserved. In an elastic collision both momentum and kinetic energy are conserved. In an inelastic collision momentum is conserved but some kinetic energy is converted to heat and sound. In a perfectly inelastic collision the bodies stick together and move with a common velocity v = (m1 u1 + m2 u2) / (m1 + m2). Momentum is conserved in all collisions, but kinetic energy is conserved only in elastic ones.
+
+Chapter 5: Circular Motion
+
+In uniform circular motion speed is constant but velocity changes continuously because its direction changes, so the body is accelerating. Angular velocity is omega = delta theta / t, and the linear speed is v = r omega. The centripetal acceleration is a = v^2 / r = omega^2 r, directed towards the centre. The centripetal force needed is F = mv^2 / r. It is not a new kind of force; it is supplied by tension, friction, gravity or another real force. For a car turning on a flat road, friction provides the centripetal force, so the maximum safe speed is v = sqrt(mu_s r g). Banking a road lets the horizontal component of the normal force help supply the centripetal force, reducing dependence on friction.

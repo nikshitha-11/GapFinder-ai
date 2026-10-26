@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { background: #f6f7f9; color: #14213d; font-family: "Inter", system-ui, sans-serif; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+:focus-visible { outline: 2px solid #0f766e; outline-offset: 2px; }
