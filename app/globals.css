@@ -1,6 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body { background: #f6f7f9; color: #14213d; font-family: "Inter", system-ui, sans-serif; }
-@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+body {
+  background:
+    radial-gradient(900px 500px at 10% -10%, #ccfbf1 0%, transparent 60%),
+    radial-gradient(800px 500px at 100% 0%, #e0e7ff 0%, transparent 55%),
+    #f6f7f9;
+  background-attachment: fixed;
+  color: #14213d;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+.fade-up { animation: fadeUp .35s ease both; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+
 :focus-visible { outline: 2px solid #0f766e; outline-offset: 2px; }

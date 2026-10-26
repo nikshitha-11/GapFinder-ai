@@ -32,8 +32,11 @@ export async function ingest(sb: any, uid: string, name: string, kind: string, p
       `Extract the topic structure from this syllabus. Return JSON {"topics":[{"name":"short topic name","description":"one sentence on what it covers"}]}. ` +
       `Between 4 and 12 topics, only topics actually present in the text.\n\nSYLLABUS:\n${text}`);
     const list = (out.topics || []).filter((t) => t?.name).slice(0, 12);
-    await sb.from("topics").delete().eq("user_id", uid);
-    if (list.length) await sb.from("topics").insert(list.map((t) => ({ user_id: uid, name: t.name, description: t.description || "" })));
+    if (!list.length) throw new Error("Could not find topics in this syllabus. Try a text-based file with a clear list of topics.");
+    const { error: de } = await sb.from("topics").delete().eq("user_id", uid);
+    if (de) throw de;
+    const { error: ie } = await sb.from("topics").insert(list.map((t) => ({ user_id: uid, name: t.name, description: t.description || "" })));
+    if (ie) throw ie;
     topics = list.length;
   }
   return { document: doc.id, chunks: chunks.length, topics };
